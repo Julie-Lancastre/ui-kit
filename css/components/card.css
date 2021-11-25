@@ -1,0 +1,124 @@
+.card {
+	background-color: none;
+	display: flex;
+	margin:0;
+	padding: 5% 0;
+	flex-direction: column;
+  	justify-content: space-between;
+  	align-items: center;
+ 	flex-basis: auto;	
+	align-content: center;
+	font-size: 40px;
+	color: rgba(0, 79, 113, 1.0);
+}
+
+.card h3 {
+
+}
+
+.card-text h2 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 80px;
+
+	-webkit-text-stroke: 2px white;
+	text-shadow: 5px 5px 30px rgba(0, 79, 113, 0);
+	font-family: 'Archivo Black', sans-serif;
+	font-weight: light;
+	text-transform: uppercase;
+}
+
+#information {
+	background-color: rgba(91, 194, 231, 0.7);
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+#information h2 {
+	color: rgba(91, 194, 231, 0);	
+}
+#presentation {
+	background-color: rgba(227, 82, 5, 0.7);
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+#presentation h2 {
+		color: rgba(227, 82, 5, 0);
+}
+
+#presentation-row {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	padding: 5px 0;
+	justify-content: space-around;
+	align-items: stretch;
+}
+
+#presentation-partenaire-row {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	padding: 5px 0;
+	justify-content: space-evenly;
+	align-items: stretch;
+}
+
+.card-element {
+	display: flex;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 20px;
+	flex-grow: 1;
+	margin: 2%;
+	flex-direction: column;
+	align-items: stretch;
+	background-color: rgba(244, 245, 244, 1);
+	text-align: center;
+	flex-basis: 400px;
+	width: 100px;
+	box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.card-element img {
+
+}
+#element-haut {
+	align-content: flex-start;
+	align-self: flex-start;
+	flex-basis: 400px;
+}
+
+#element-bas {
+	margin: 2%;
+	flex-basis: 400px;
+}
+
+.partenaires-logo {
+	width: 50px;
+	align-items: stretch;
+	align-self: center;
+}
+
+#img-logo {
+	width: 150px;
+}
+
+.card-prix {
+	display: flex;
+	padding: 5px 0px 5px 0px;
+	align-items: left;
+	margin: 5% 10%;
+	text-align: center;
+	justify-content: center;
+}
+
+.card-prix ul {
+	list-style-type: none;
+	list-style: none;
+	text-align: center;
+
+}
+
+.card-prix li {
+	text-align: center;
+}

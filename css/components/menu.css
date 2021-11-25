@@ -1,0 +1,79 @@
+.menu {
+	background-color: white;
+	margin: 0;
+	position: fixed;	
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: baseline;
+	align-content: stretch;
+	z-index: 10;
+}
+
+
+
+.menu-top-element {
+	display: flex;
+	padding: 0px 30%;
+
+}
+
+
+.menu-top-element a {
+	text-decoration: none;
+	color: black;
+	padding: 0 5px;
+}
+
+
+.etiquette {
+	display: flex;
+	font-size: 20px;
+	padding: 0 10%;
+	flex-grow: 1;
+	align-items: center;
+
+}
+
+#logo-center img {
+	width: 100px;
+	padding: 0 5px 0 0 ;
+}
+
+#logo-center img:hover {
+	transform: scale(1.2);
+}
+
+
+#logo-mobile {
+	display: none;
+}
+
+#logo-mobile img {
+	width: 40px;
+}
+
+#logo-desktop {
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  #logo-mobile{
+  	display: none;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  #logo-mobile {
+  	display: none;
+  }
+}
+@media (max-width: 600px) {
+  /* For a screen < 540px, this CSS will be read */
+  #logo-desktop {
+  	display: none;
+  }
+  #logo-mobile {
+  	display: block;
+  }
+}

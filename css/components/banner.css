@@ -1,0 +1,73 @@
+.banner h1,h2 {
+	color: white;
+}
+
+.banner h1 {
+	font-size: 150px;
+}
+
+.banner h2 {
+	font-size: 100px;
+}
+
+.banner img {
+	box-sizing: content-box;
+}
+
+.banner {
+	display: flex;
+	justify-content: center;
+	padding: 0 0 8% 0;
+	flex-direction: column;
+}
+
+.banner button {
+	text-align: center;
+	border: white solid 1px;
+	background-color: rgba(0, 79, 113, 1);
+	font-size: 40px;
+	padding: 10px 50px;
+	border-radius: 5px;
+}
+
+.banner a {
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+.banner button:hover {
+	background-color: white;
+	transform: scale(1.2);
+	transition-duration: 0.5s;
+	transition-delay: 0.3s;
+	border: 1px solid black;
+}
+
+.banner a:hover {
+	color: black;
+	transition-delay: 0.2s;
+	transition-duration: 0.5s;
+}
+
+.banner-element {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.sidebar {
+	position: absolute;
+	left: 2%;
+	top: 50%;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	font-size: 30px;
+}
+
+
+.banner {
+	position: relative;
+}

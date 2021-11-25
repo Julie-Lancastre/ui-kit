@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+@import url(components/menu.css);
+@import url(components/banner.css);
+@import url(components/formulaire.css);
+@import url(components/footer.css);
+@import url(components/card.css);
+
+
+body {
+	background-image: linear-gradient(10deg, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0.2) 50%), url(../images/background.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}

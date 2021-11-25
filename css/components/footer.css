@@ -1,0 +1,27 @@
+.footer {
+	margin: 2% 0 0 0;
+	padding: 0 0;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer p {
+	color: white;
+}
+
+.footer ul {
+	color: white;
+	list-style: none;
+	list-style-type: none;
+	text-align: center;
+	padding: 2% 0%;
+}
+
+.footer li {
+	display: inline;
+	margin: 10px;
+}
